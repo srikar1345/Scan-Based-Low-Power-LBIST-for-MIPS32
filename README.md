@@ -41,6 +41,9 @@ This work mitigates these issues by **controlling scan input transitions** witho
 
 ## Architecture Overview
 
+## Architecture Overview
+
+```mermaid
 flowchart TD;
     LFSR["LFSR (40-bit)"] --> PLPF["PLPF Bank"];
     PLPF --> ScanChains["Pipeline Scan Chains"];
