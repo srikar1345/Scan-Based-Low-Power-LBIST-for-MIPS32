@@ -41,13 +41,11 @@ This work mitigates these issues by **controlling scan input transitions** witho
 
 ## Architecture Overview
 
-```mermaid
-flowchart TD
-    LFSR[LFSR (40-bit)] --> PLPF[PLPF Bank]
-    PLPF --> ScanChains[Pipeline Scan Chains]
-    ScanChains --> CUT[MIPS32 Processor]
-    CUT --> MISR[MISR Signature Analyzer]
-```
+flowchart TD;
+    LFSR["LFSR (40-bit)"] --> PLPF["PLPF Bank"];
+    PLPF --> ScanChains["Pipeline Scan Chains"];
+    ScanChains --> CUT["MIPS32 Processor"];
+    CUT --> MISR["MISR Signature Analyzer"];
 
 ---
 
