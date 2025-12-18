@@ -39,9 +39,6 @@ This work mitigates these issues by **controlling scan input transitions** witho
 
 ---
 
-## Architecture Overview
-
-## Architecture Overview
 
 ## Architecture Overview
 
